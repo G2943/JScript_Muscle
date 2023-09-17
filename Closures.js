@@ -1,7 +1,7 @@
 function closureFunc(){
     let a = "Hello";
     function insideClosure(){
-        a = "inClosure"
+        // a = "inClosure"
         console.log("Func Inside Closure : "+a);
     }
     a = "after Function"
